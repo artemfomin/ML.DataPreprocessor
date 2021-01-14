@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML.ImagePreprocessor.Desktop", "ML.ImagePreprocessor.Desktop\ML.ImagePreprocessor.Desktop.csproj", "{0545FF20-7E3C-4FD9-9E2B-E5DA5360A1DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0545FF20-7E3C-4FD9-9E2B-E5DA5360A1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0545FF20-7E3C-4FD9-9E2B-E5DA5360A1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0545FF20-7E3C-4FD9-9E2B-E5DA5360A1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0545FF20-7E3C-4FD9-9E2B-E5DA5360A1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {224A2772-3499-4AB1-B249-A983C82EE2EB}
+	EndGlobalSection
+EndGlobal
