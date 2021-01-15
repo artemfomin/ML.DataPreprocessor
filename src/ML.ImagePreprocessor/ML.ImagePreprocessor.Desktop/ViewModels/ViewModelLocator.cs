@@ -1,4 +1,4 @@
-﻿using ML.ImagePreprocessor.Desktop.ViewModels.Base;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace ML.ImagePreprocessor.Desktop.ViewModels
 {
