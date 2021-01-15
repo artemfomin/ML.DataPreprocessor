@@ -14,11 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="Resources\Styles\BaseStyles\WindowWithCromeStyle.xaml">
+    <Page Update="Resources\Styles\BaseStyles\WindowWithChromeStyle.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resources\Styles\ControlTemplates\WindowControlTemplateWithCrome.xaml">
+    <Page Update="Resources\Styles\ControlTemplates\WindowControlTemplateWithChrome.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
     </Page>

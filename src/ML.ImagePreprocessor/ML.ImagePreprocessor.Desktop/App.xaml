@@ -9,8 +9,14 @@
             <ResourceDictionary.MergedDictionaries>
                 <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="DeepPurple" SecondaryColor="Teal"/>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml"/>
-
-                <ResourceDictionary Source="Resources/Styles/BaseStyles/WindowWithCromeStyle.xaml" />
+                 
+                <!--Windows-->
+                <ResourceDictionary Source="Resources/Styles/BaseStyles/WindowWithChromeStyle.xaml"/>
+                <ResourceDictionary Source="Resources/Styles/ControlTemplates/WindowControlTemplateWithChrome.xaml"/>
+                
+                <!--System buttons-->
+                <ResourceDictionary Source="Resources/Styles/BaseStyles/WindowsSystemButtonsStyles.xaml"/>
+                <ResourceDictionary Source="Resources/Styles/ControlTemplates/WindowsSystemButtonsTemplates.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

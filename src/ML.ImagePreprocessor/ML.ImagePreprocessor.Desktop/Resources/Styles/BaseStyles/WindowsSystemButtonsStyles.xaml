@@ -18,7 +18,7 @@
         <Setter Property="BorderThickness" Value="0"/>
         <Setter Property="ToolTipService.Placement" Value="Mouse"/>
         <Setter Property="ToolTipService.VerticalOffset" Value="5"/>
-        <Setter Property="Template" Value="{StaticResource ToolBarButtonBase}"/>
+        <Setter Property="Template" Value="{DynamicResource ToolBarButtonBase}"/>
     </Style>
 
 </ResourceDictionary>

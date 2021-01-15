@@ -31,7 +31,7 @@
                         <StackPanel HorizontalAlignment="Right"
                                                 Orientation="Horizontal"
                                                 Grid.Column="1">
-                            <Button Style="{StaticResource ToolBarButtonBaseStyle}"
+                            <Button Style="{DynamicResource ToolBarButtonBaseStyle}"
                                                 ToolTip="Свернуть">
                                 <i:Interaction.Behaviors>
                                     <b:MinimizeWindow/>
@@ -50,7 +50,7 @@
                                                 </Style>
                                             </Button.Style>-->
                             </Button>
-                            <Button Style="{StaticResource ToolBarButtonBaseStyle}"
+                            <Button Style="{DynamicResource ToolBarButtonBaseStyle}"
                                                 ToolTip="Восстановить">
                                 <i:Interaction.Behaviors>
                                     <b:WindowStateChange/>
@@ -62,7 +62,7 @@
                                                                      Width="30" 
                                                                      Height="30"/-->
                             </Button>
-                            <Button Style="{StaticResource ToolBarButtonBaseStyle}"
+                            <Button Style="{DynamicResource ToolBarButtonBaseStyle}"
                                                 ToolTip="Закрыть"
                                                 Content="&#xE894;">
                                 <!--Command="{Binding CloseApp}"-->
