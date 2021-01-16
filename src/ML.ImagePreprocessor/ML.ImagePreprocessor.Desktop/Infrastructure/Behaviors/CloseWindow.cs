@@ -11,7 +11,7 @@ namespace ML.ImagePreprocessor.Desktop.Infrastructure.Behaviors
 
         protected override void OnDetaching() => AssociatedObject.Click += OnButtonClick;
 
-        private void OnButtonClick(object Sender, RoutedEventArgs E) =>
+        private void OnButtonClick(object sender, RoutedEventArgs e) =>
             (AssociatedObject.FindVisualRoot() as Window)?.Close();
     }
 }

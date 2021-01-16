@@ -9,7 +9,7 @@ namespace ML.ImagePreprocessor.Desktop.Infrastructure.Behaviors
     {
         protected override void OnAttached() => AssociatedObject.Click += OnButtonClick;
 
-        private void OnButtonClick(object Sender, RoutedEventArgs E)
+        private void OnButtonClick(object sender, RoutedEventArgs e)
         {
             if (!(AssociatedObject.FindVisualRoot() is Window window)) return;
 

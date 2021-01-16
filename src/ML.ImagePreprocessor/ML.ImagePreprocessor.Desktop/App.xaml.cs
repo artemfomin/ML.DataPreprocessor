@@ -18,19 +18,18 @@ namespace ML.ImagePreprocessor.Desktop
         {
             IsDesignMode = false;
 
-            var host = Host;
             base.OnStartup(e);
 
-            await host.StartAsync().ConfigureAwait(false);
+            await Host.StartAsync().ConfigureAwait(false);
         }
 
         protected override async void OnExit(ExitEventArgs e)
         {
             base.OnExit(e);
 
-            var host = Host;
-            await host.StopAsync().ConfigureAwait(false);
-            host.Dispose();
+            await Host.StopAsync().ConfigureAwait(false);
+            Host.Dispose();
+
             __Host = null;
         }
 
