@@ -8,8 +8,9 @@
         WindowStartupLocation="CenterScreen"
         
         DataContext="{Binding MainWindowModel, Source={StaticResource Locator}}"
+        
         Style="{StaticResource MainWindowStyleWithChrome}">
     <Grid>
-        
+
     </Grid>
 </Window>
