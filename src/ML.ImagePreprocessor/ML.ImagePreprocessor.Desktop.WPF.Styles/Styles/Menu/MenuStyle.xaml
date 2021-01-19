@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    
+    <Style x:Key="MenuStyleMd" TargetType="{x:Type Menu}" BasedOn="{StaticResource MaterialDesignMenu}">
+        <Setter Property="IsMainMenu" Value="True"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontFamily" Value="Abadi Extra Light"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="LightGray"/>
+    </Style>
+
+    <Style x:Key="MenuItemMdFile" TargetType="{x:Type MenuItem}" BasedOn="{StaticResource MaterialDesignMenuItem}">
+        <Setter Property="Header" Value="File"/>
+    </Style>
+
+    <Style x:Key="MenuItemMdOpen" TargetType="{x:Type MenuItem}" BasedOn="{StaticResource MaterialDesignMenuItem}">
+        <Setter Property="Header" Value="Open"/>
+        <Setter Property="InputGestureText" Value="Ctrl+O"/>
+        <Setter Property="Icon" Value="{materialDesign:PackIcon Kind=OpenInApp}"/>
+    </Style>
+
+    <Style x:Key="MenuItemMdExit" TargetType="{x:Type MenuItem}" BasedOn="{StaticResource MaterialDesignMenuItem}">
+        <Setter Property="Header" Value="Exit"/>
+        <Setter Property="InputGestureText" Value="Ctrl+Q"/>
+        <Setter Property="Icon" Value="{materialDesign:PackIcon Kind=ExitToApp}"/>
+    </Style>
+
+    <Style x:Key="MenuItemMdHelp" TargetType="{x:Type MenuItem}" BasedOn="{StaticResource MaterialDesignMenuItem}">
+        <Setter Property="Header" Value="Help"/>
+    </Style>
+
+    <Style x:Key="MenuItemMdAboutFinder" TargetType="{x:Type MenuItem}" BasedOn="{StaticResource MaterialDesignMenuItem}">
+        <Setter Property="Header" Value="About &quot;Finder&quot;"/>
+        <Setter Property="InputGestureText" Value="Ctrl+F1"/>
+    </Style>
+</ResourceDictionary>

@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:l="clr-namespace:ML.ImagePreprocessor.Desktop"
         
         WindowStartupLocation="CenterScreen"
@@ -10,7 +11,21 @@
         DataContext="{Binding MainWindowModel, Source={StaticResource Locator}}"
         
         Style="{StaticResource MainWindowStyleWithChrome}">
-    <Grid>
-
-    </Grid>
+    <Window.InputBindings>
+        <KeyBinding Modifiers="Ctrl" Key="Q" Command="{Binding CloseApp}"/>
+    </Window.InputBindings>
+    <DockPanel LastChildFill="False">
+        <Menu DockPanel.Dock="Top"
+              Style="{StaticResource MenuStyleMd}">
+            <MenuItem Style="{StaticResource MenuItemMdFile}">
+                <MenuItem Style="{StaticResource MenuItemMdOpen}"/>
+                <Separator Style="{StaticResource MaterialDesignDarkSeparator}"/>
+                <MenuItem Style="{StaticResource MenuItemMdExit}"
+                          Command="{Binding CloseApp}"/>
+            </MenuItem>
+            <MenuItem Style="{StaticResource MenuItemMdHelp}">
+                <MenuItem Style="{StaticResource MenuItemMdAboutFinder}"/>
+            </MenuItem>
+        </Menu>
+    </DockPanel>
 </Window>

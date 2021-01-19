@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML.ImagePreprocessor.Desktop", "ML.ImagePreprocessor.Desktop\ML.ImagePreprocessor.Desktop.csproj", "{0545FF20-7E3C-4FD9-9E2B-E5DA5360A1DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML.ImagePreprocessor.Desktop.WPF.Styles", "ML.ImagePreprocessor.Desktop.WPF.Styles\ML.ImagePreprocessor.Desktop.WPF.Styles.csproj", "{A368ECD6-F9EB-4ABB-B7F5-8797E0B44834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML.ImagePreprocessor.Desktop.WPF.Styles", "ML.ImagePreprocessor.Desktop.WPF.Styles\ML.ImagePreprocessor.Desktop.WPF.Styles.csproj", "{A368ECD6-F9EB-4ABB-B7F5-8797E0B44834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

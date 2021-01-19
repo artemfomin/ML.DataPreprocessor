@@ -78,7 +78,7 @@
                 </Border>
 
                 <AdornerDecorator>
-                    <ContentPresenter Margin="0, 30, 0, 0"/>
+                    <ContentPresenter Margin="0, 50, 0, 0"/>
                 </AdornerDecorator>
             </Grid>
         </Border>
